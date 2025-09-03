@@ -1,0 +1,131 @@
+{
+  "NAV": {
+    "ABOUT": "Über mich",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projekte",
+    "CONTACT": "Kontakt"
+  },
+
+  "HERO": {
+    "WORLD": "Hallo Welt",
+    "NAME": "ICH BIN ALEX HERZEN",
+    "TOUCH": "Kontaktiere mich"
+  },
+
+  "ABOUT_SECTION": {
+    "WHO": "WER IST ALEX?",
+    "TITLE": "Über mich",
+    "PARAGRAPH1": "Hallo, ich bin Alex! Technologie und Innovation sind schon immer meine Leidenschaft gewesen. Meine Reise in der IT wird von einer tiefen Neugier angetrieben, komplexe Probleme durch Code zu lösen. Ich liebe die Herausforderung, effiziente, elegante Lösungen zu finden und meine Fähigkeiten ständig zu verbessern, um in der sich ständig weiterentwickelnden Tech-Welt vorne zu bleiben. Was mich am meisten inspiriert, ist die Fähigkeit, Ideen in die Realität umzusetzen – Anwendungen zu bauen, die einen Unterschied machen. Jedes Projekt ist eine Gelegenheit zu lernen, zu wachsen und Grenzen zu überschreiten.",
+    "PARAGRAPH2": "Lass uns zusammenarbeiten und etwas Außergewöhnliches schaffen!",
+    "BUTTON": "Lass uns reden",
+    "BASED_IN": "Lebe in Nürnberg",
+    "OPEN_TO_RELOCATE": "Bereit zum Umzug",
+    "OPEN_TO_REMOTE": "Offen für Remote-Arbeit"
+  },
+
+  "SKILL_SET": {
+    "STACK": "MEIN STACK",
+    "SKILL": "Fähigkeiten",
+    "DESCRIPTION": "Ich beherrsche moderne Frontend-Technologien wie HTML, CSS, JavaScript, TypeScript und Angular. Gleichzeitig bin ich sehr anpassungsfähig und erkunde ständig neue Tools, Frameworks und Programmieransätze, um stets am Puls der Zeit zu bleiben."
+  },
+
+  "PROJECTS": {
+    "CRAFT": "MEIN HANDWERK",
+    "MY_PROJECTS": "Projekte",
+    "BTN": "Projektdetails",
+    "PROJECTS_P": "Entdecken Sie meine innovativen Projekte und erfahren Sie, wie ich Responsive Design mit effizientem Code kombiniere, um benutzerfreundliche Erlebnisse zu schaffen. Jedes Projekt spiegelt mein Engagement wider, Grenzen zu überschreiten und herausragende digitale Lösungen zu liefern. Tauchen Sie ein, erkunden Sie meine kreativen Arbeiten und lassen Sie sich von Ihrer Neugier zu etwas Außergewöhnlichem führen!",
+    "JOIN": "Aufgabenmanager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben per Drag & Drop, weisen Sie Benutzer und Kategorien zu.",
+    "EL_POLLO_LOCO": "Spring-, Lauf- und Wurfspiel mit objektorientiertem Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
+    "DABUBBLE": "Diese App ist ein Slack-Klon, der mit seiner intuitiven Benutzeroberfläche, Echtzeitnachrichten und robusten Kanalorganisation die Teamkommunikation und -zusammenarbeit revolutioniert."
+  },
+
+  "COLLEAGUES": {
+    "WORDS": "IN IHREN WORTEN:",
+    "THOUGHTS": "Gedanken der Kollegen",
+    "CARD_TEXT1": "Alex hat einen klaren Orientierungssinn und weiß, wie er das Team fokussiert hält. Seine Fähigkeit, jeden zu Höchstleistungen zu motivieren, hat uns geholfen, solide Ergebnisse zu erzielen.",
+    "CARD_TEXT2": "Die Zusammenarbeit mit Alex war motivierend. Er bringt positive Energie ins Team, hört sich unterschiedliche Meinungen an und macht Brainstorming-Sitzungen produktiver.",
+    "CARD_TEXT3": "Alex ist zuverlässig und hilfsbereit. Er macht praktische Vorschläge und sorgt dafür, dass das Team ohne unnötigen Druck auf Kurs bleibt."
+  },
+
+  "PROJECT_DETAILS": {
+    "BACK": "Zurück",
+    "DESCRIPTION": "Beschreibung",
+    "DETAILS": "Umsetzungsdetails",
+    "DURATION": "Dauer:",
+    "WEEKS": "Wochen",
+    "NEXT": "Nächstes Projekt",
+    "JOIN_DESCRIPTION": "Aufgabenmanager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben per Drag & Drop, weisen Sie Benutzer und Kategorien zu.",
+    "JOIN_DETAILS": "Für Projekt Join entwickelte ich einen strukturierten Workflow, indem ich ein Kanban-Board entwarf und verfeinerte, um das Aufgabenmanagement zu optimieren und die Teamproduktivität zu steigern. Ich setzte klare Prioritäten, überwachte den Fortschritt transparent und optimierte den Prozess kontinuierlich. Dabei stellte ich meine Fähigkeit unter Beweis, selbstständig zu arbeiten und mich an sich entwickelnde Projektanforderungen anzupassen.",
+    "POLLO_DESCRIPTION": "Spring-, Lauf- und Wurfspiel mit objektorientiertem Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
+    "POLLO_DETAILS": "Im Projekt El Pollo Loco leitete ich den Spielentwicklungsprozess von der Konzeption bis zur finalen Umsetzung. Mithilfe agiler Methoden verfeinerte ich Spielmechanik und Benutzererlebnis schrittweise und hielt dabei strenge Qualitätsstandards ein. Dieses Projekt unterstreicht meinen selbstbestimmten, strukturierten Ansatz bei kreativen und technischen Herausforderungen.",
+    "DABUBBLE_DESCRIPTION": "Mit diesem Pokédex kannst du eine wachsende Liste von Pokémon durchsuchen, ihre Typen und Werte entdecken und Details in einem übersichtlichen Kartenlayout ansehen. Speichere deine Favoriten und wähle, wie viele Pokémon geladen werden sollen – sie bleiben auch bei deinem nächsten Besuch erhalten.",
+    "DABUBBLE_DETAILS": "Dieses Projekt war meine erste praktische Erfahrung mit einer API. Ich habe die PokeAPI genutzt, um mit großen Datensätzen zu arbeiten. Das Parsen und Strukturieren der Daten war anfangs herausfordernd, aber als ich den Dreh raus hatte, machte es richtig Spaß, die Informationen genau dort im Frontend einzubinden, wo sie gebraucht wurden."
+  },
+
+  "CONTACT":{
+    "CONTACT_ME": "KONTAKTIERE MICH",
+    "H1": "Bereit zur Zusammenarbeit?",
+    "P-1": "Ich freue mich auf die Zusammenarbeit und darauf, Ideen in die Tat umzusetzen. Mit meiner wachsenden Front-End-Erfahrung und meinem starken Drang zur Verbesserung bringe ich Kreativität und Zuverlässigkeit ins Team. Ich bin stets lernbegierig und bereit, neue Herausforderungen anzunehmen und sinnvolle Ergebnisse zu liefern.",
+    "P-2": "Ich bin leidenschaftlich an der Front-End-Entwicklung interessiert und möchte mich weiterentwickeln. Ich bin bereit, Ihrem Team frische Ideen und Energie zu verleihen. Lassen Sie uns gemeinsam etwas Wirkungsvolles schaffen!",
+    "LABEL_NAME": "Wie heißen Sie?",
+    "SPAN_NAME": "Ups! Dein Name fehlt“",
+    "LABEL_EMAIL": "Wie lautet Ihre E-Mail-Adresse?",
+    "SPAN_EMAIL": "Hoppla! Deine E-Mail fehlt",
+    "LABEL_MESSAGE": "Wie kann ich dir helfen?",
+    "SPAN_MESSAGE": "Was musst du entwickeln?",
+    "PRIVACY_P1": "Ich habe gelesen",
+    "PRIVACY_P2": "und stimme der Verarbeitung meiner",
+    "PRIVACY_P3": "Daten wie beschrieben.",
+    "PRIVACY_A": "Datenschutzrichtlinie",
+    "POLICY": "Bitte Datenschutz akzeptieren.",
+    "SEND_BUTTON": "Senden",
+    "NAME_PLACEHOLDER": "Hier steht Ihr Name",
+    "MESSAGE_PLACEHOLDER": "Hallo Alex, ich interessiere mich für...",
+    "MESSAGE_SENT": "Ihre Nachricht wurde erfolgreich gesendet"                               
+  },
+
+   "PRIVACY_POLICY": {
+    "POLICY_H1": "Datenschutzerklärung",
+    "BACK": "Zurück",
+    "INTRO": "1. Einführung",
+    "MY_POLICY": "Diese Datenschutzrichtlinie erläutert, wie Alex Herzen Ihre personenbezogenen Daten erhebt, verwendet und schützt, wenn Sie meine Portfolio-Website https://alex-herzen.de besuchen. Ich verpflichte mich, Ihre Privatsphäre zu schützen und sicherzustellen, dass Ihre personenbezogenen Daten sicher und verantwortungsvoll behandelt werden.",        
+    "INFO": "2. Informationssammlun",
+    "COLLECT": "Ich kann personenbezogene Daten erfassen, die Sie freiwillig angeben, wenn Sie:",
+    "FILL": "- Kontaktformulare ausfüllen",
+    "SUBMIT": "- Anfragen oder Kommentare senden",
+    "PERSONAL": "Die gesammelten Daten können Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer und weitere von Ihnen bereitgestellte Informationen umfassen.",
+    "YOUR_INFO": "3. Wie Ihre Daten verwendet werden",
+    "YOUR_PERSONAL": "Ich verwende Ihre personenbezogenen Daten, um:",
+    "RESPOND": "- Beantwortung Ihrer Anfragen oder Nachrichten",
+    "PROVIDE": "- Bereitstellung der von Ihnen angeforderten Informationen oder Dienste",
+    "IMPROVIDE": "- Den Inhalt und die Funktionalität meiner Website verbessern",
+    "COMMUNICATE": "- Kommunizieren Sie Updates oder relevante Informationen zu meinem Portfolio und meinen Dienstleistungen",
+    "NOT_SHARE": "Ich gebe Ihre personenbezogenen Daten nicht zu Marketingzwecken an Dritte weiter.",
+    "COOKIES": "4. Cookies und Tracking-Technologien",
+    "WEBSITE": "Meine Website verwendet Cookies und ähnliche Technologien, um Ihr Benutzererlebnis zu verbessern. Cookies helfen dabei, den Website-Verkehr zu analysieren und Inhalte zu personalisieren. Sie können die Cookie-Einstellungen in Ihrem Browser steuern. Beachten Sie jedoch, dass die Deaktivierung von Cookies die Funktionalität der Website beeinträchtigen kann.",
+    "SECURITY": "5. Datensicherheit",
+    "MEASURES": "Ich treffe angemessene technische und organisatorische Maßnahmen, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Veränderung, Offenlegung oder Zerstörung zu schützen. Bitte beachten Sie jedoch, dass kein Sicherheitssystem undurchdringlich ist.",
+    "RIGHTS": "6. Ihre Rechte",
+    "YOU_HAVE": "Sie haben das Recht:",
+    "ACCESS": "Zugriff auf die von mir über Sie gespeicherten personenbezogenen Daten zu erhalten",
+    "REQUEST": "Die Korrektur oder Löschung Ihrer personenbezogenen Daten zu verlangen",
+    "OBJECT": "Der Verarbeitung Ihrer Daten zu widersprechen oder diese einzuschränken",
+    "EXERCISE": "Wenn Sie eines dieser Rechte ausüben möchten, kontaktieren Sie mich bitte unter",
+    "CHANGES": "7. Änderungen dieser Datenschutzerklärung",
+    "UPDATE": "Ich kann diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Änderungen werden auf dieser Seite mit einem aktualisierten Wirksamkeitsdatum veröffentlicht. Ich empfehle Ihnen, die Datenschutzerklärung regelmäßig zu überprüfen",
+    "CONTACT_POLICY": "8. Kontakt",
+    "QUESTIONS": "Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung haben, kontaktieren Sie mich bitte per E-Mail unter"         
+  },
+
+  "LEGAL_NOTICE": {
+    "NOTICE_H1": "Impressum",
+    "BACK": "Zurück",
+    "PROVIDER": "Dienstanbieter",
+    "CONTACT_INFO": "Kontaktinformationen",
+    "ADDITIONAL": "Weitere Informationen",
+    "FOR_DETAILS": "Einzelheiten zum Datenschutz und zur Privatsphäre finden Sie in unserer",
+    "LAST_POLICY": "Datenschutzerklärung",
+    "EMAIL": "E-Mail-Adresse:"
+  }
+
+}

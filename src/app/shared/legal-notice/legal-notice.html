@@ -1,0 +1,35 @@
+<section class="policy_main">
+    <app-header></app-header>
+    <div class="max_width">
+        <h1>{{ 'LEGAL_NOTICE.NOTICE_H1' | translate }}</h1>
+    </div>
+</section>
+
+<div class="max_width">
+
+    <div class="back">
+        <a [routerLink]="['/']" fragment="hero">
+            <img routerLink="" src="assets/img/back 1.png" alt="">
+            <h3>{{ 'LEGAL_NOTICE.BACK' | translate }}</h3>
+        </a>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <h2>{{ 'LEGAL_NOTICE.PROVIDER' | translate }}</h2>
+            <p>Alex Herzen</p>
+            <p>Mühlstrasse 8</p>
+            <p>90547 Stein</p>
+            <h2>{{ 'LEGAL_NOTICE.CONTACT_INFO' | translate }}</h2>
+            <p class="info">{{ 'LEGAL_NOTICE.EMAIL' | translate }} <b>herzen.alex1&#64;web.de</b></p>
+            <p><b>+49/17631349084</b></p>
+            <h2>{{ 'LEGAL_NOTICE.ADDITIONAL' | translate }}</h2>
+            <p>{{ 'LEGAL_NOTICE.FOR_DETAILS' | translate }}</p>
+            <a [routerLink]="['/privacy-policy']">{{ 'LEGAL_NOTICE.LAST_POLICY' | translate }}</a>
+        </div>
+    </div>
+</div>
+
+<div class="content_footer">
+    <app-footer class="footer"></app-footer>
+</div>

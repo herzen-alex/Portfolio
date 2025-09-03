@@ -1,0 +1,70 @@
+<section class="max_width">
+
+    <div class="content">
+
+        <div class="projects_content">
+            <h3>{{ 'PROJECTS.CRAFT' | translate }}</h3>
+            <h1>{{ 'PROJECTS.MY_PROJECTS' | translate }}</h1>
+            <div class="project_images">
+                <img src="assets/img/projects.png" alt="">
+            </div>
+            <p>{{ 'PROJECTS.PROJECTS_P' | translate }}</p>
+        </div>
+
+        <div class="join_project">
+            <div class="join_project_overlay">
+                <div class="laptop">
+                    <img src="assets/img/laptop.png" alt="">
+                    <a [routerLink]="['/project_details', 1]" class="a_none"><button class="btn">{{ 'PROJECTS.BTN' | translate }}</button></a>
+                    <div class="overlay"></div>
+                </div>
+                <img class="project_sticker" src="assets/img/project_sticker.png" alt="">
+            </div>
+            <h3>Join</h3>
+            <p>{{ 'PROJECTS.JOIN' | translate }}</p>
+            <div class="btn_wrapper btn_none">
+                <a [routerLink]="['/project_details', 1]">
+                    <button class="btn">{{ 'PROJECTS.BTN' | translate }}</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="projects">
+            <div class="projects_overlay">
+                <div class="projects_bg_img">
+                    <img src="assets/img/el.pollo.loco.png" alt="">
+                    <a [routerLink]="['/project_details', 2]" class="a_none"><button class="btn">{{ 'PROJECTS.BTN' | translate }}</button></a>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <h3>El Pollo Loco</h3>
+            <p>{{ 'PROJECTS.EL_POLLO_LOCO' | translate }}</p>
+            <div class="btn_wrapper btn_none">
+                <a [routerLink]="['/project_details', 2]"><button class="btn">{{ 'PROJECTS.BTN' | translate }}</button></a>
+            </div>
+        </div>
+
+
+        <div class="projects">
+            <div class="projects_main">
+                <div class="projects_bg_img">
+                    <img src="assets/img/pokedex.png" alt="">
+                    <a [routerLink]="['/project_details', 3]" class="a_none"><button class="btn">{{ 'PROJECTS.BTN' | translate }}</button></a>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+            <h3>DABubble</h3>
+            <p>{{ 'PROJECTS.DABUBBLE' | translate }}</p>
+            <div class="btn_wrapper btn_none">
+                <a [routerLink]="['/project_details', 3]"><button class="btn">{{ 'PROJECTS.BTN' | translate }}</button></a>
+            </div>
+        </div>
+    </div>
+
+    <app-colleagues-thoughts></app-colleagues-thoughts>
+
+
+</section>

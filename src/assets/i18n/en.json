@@ -1,0 +1,132 @@
+{
+  "NAV": {
+    "ABOUT": "About me",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projects",
+    "CONTACT": "Contact"
+  },
+
+   "HERO": {
+    "WORLD": "Hello world",
+    "NAME": "I'M ALEX HERZEN",
+    "TOUCH": "Get in Touch"
+  },
+
+  "ABOUT_SECTION": {
+    "WHO": "WHO'S ALEX?",
+    "TITLE": "About me",
+    "PARAGRAPH1": "Hey there, I'm Alex! Technology and innovation have always been my passion. My journey in IT is driven by a deep curiosity to solve complex problems through code. I love the challenge of finding efficient, elegant solutions and continuously refining my skills to stay ahead in the ever-evolving tech world. What inspires me the most is the ability to turn ideas into reality—building applications that make a difference. Every project is an opportunity to learn, grow, and push boundaries.",
+    "PARAGRAPH2": "Let's collaborate and build something remarkable together!",
+    "BUTTON": "Let's talk",
+    "BASED_IN": "Based in Nürnberg",
+    "OPEN_TO_RELOCATE": "Open to relocate",
+    "OPEN_TO_REMOTE": "Open to work remote"
+  },
+
+  "SKILL_SET": {
+    "STACK": "MY STACK",
+    "SKILL": "Skill Set",
+    "DESCRIPTION": "I'm proficient in front-end technologies such as HTML, CSS, JavaScript, TypeScript, and Angular. At the same time, I'm highly adaptable and constantly exploring new tools, frameworks, and programming approaches to stay ahead of industry trends."
+  },
+
+  "PROJECTS": {
+    "CRAFT": "MY CRAFT",
+    "MY_PROJECTS": "Projects",
+    "BTN": "Project details",
+    "PROJECTS_P": "Discover my innovative projects and see how I blend responsive design with efficient code to create user-friendly experiences. Each project reflects my commitment to pushing boundaries and delivering outstanding digital solutions. Dive in, explore the creative work I’ve built, and let your curiosity lead you to something extraordinary!",
+    "JOIN": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories",
+    "EL_POLLO_LOCO": "Jump, run and throw game based on an object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+    "DABUBBLE": "This app is a Slack clone that revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization."
+  },
+
+  "COLLEAGUES": {
+    "WORDS": "IN THEIR WORDS:",
+    "THOUGHTS": "Colleagues' Thoughts",
+    "CARD_TEXT1": "Alex has a clear sense of direction and knows how to keep the team focused. His ability to encourage everyone to do their best helped us achieve solid results.",
+    "CARD_TEXT2": "Working with Alex was motivating. He brings good energy to the team, listens to different opinions, and makes brainstorming sessions more productive.",
+    "CARD_TEXT3": "Alex is reliable and supportive. He offers practical suggestions and ensures the team stays on track without unnecessary pressure."
+  },
+
+  "PROJECT_DETAILS": {
+    "BACK": "Go Back",
+    "DESCRIPTION": "Description",
+    "DETAILS": "Implementation Details",
+    "DURATION": "Duration:",
+    "WEEKS": "weeks",
+    "NEXT": "Next Project",
+    "JOIN_DESCRIPTION": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+    "JOIN_DETAILS": "For Project Join, I developed a structured workflow by designing and refining a Kanban board to streamline task management and boost team productivity. I set clear priorities, monitored progress transparently, and continuously optimized the process, showcasing my ability to work independently and adapt to evolving project needs.",
+    "POLLO_DESCRIPTION": "Jump, run and throw game based on an object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+    "POLLO_DETAILS": "In Project El Pollo Loco, I led the game development process from concept to final execution. Utilizing agile methodologies, I iteratively refined game mechanics and user experience while maintaining rigorous quality standards. This project highlights my self-driven, structured approach to creative and technical challenges.",
+    "DABUBBLE_DESCRIPTION": "With this Pokédex, you can browse an expanding list of Pokémon, explore their types and stats, and view details in a clean card layout. Save your favorites and choose how many Pokémon to load – they’ll still be there on your next visit.",
+    "DABUBBLE_DETAILS": "This project was my first hands-on experience with an API. I used the PokeAPI to work with large datasets. Parsing and structuring the data was challenging at first, but as I got the hang of it, integrating the information into the frontend became really enjoyable."
+  },
+
+  "CONTACT":{
+    "CONTACT_ME": "CONTACT ME",
+    "H1": "Ready to work together?",
+    "P-1": "I’m excited to collaborate and turn ideas into reality. With growing front-end experience and astrong drive to improve, I bring both creativity and reliability to the team. Always eager to learn, I’m ready to take on new challenges and deliver meaningful results.",
+    "P-2": "Passionate about front-end development and eager to grow, I’m ready to bring fresh ideas and energy to your team. Let’s build something impactful together!",
+    "LABEL_NAME": "What's your name?",
+    "SPAN_NAME": "Oops! Your name is missing",
+    "LABEL_EMAIL": "What's your email?",
+    "SPAN_EMAIL": "Hoppla! Your email is required",
+    "LABEL_MESSAGE": "How can I help you?",
+    "SPAN_MESSAGE": "What do you need to develop?",
+    "PRIVACY_P1": "I've read the",
+    "PRIVACY_P2": "and agree to the processing of my",
+    "PRIVACY_P3": "data as outlined.",
+    "PRIVACY_A": "privacy policy",
+    "POLICY": "Please accept the privacy policy",
+    "SEND_BUTTON": "Send",
+    "NAME_PLACEHOLDER": "Your name goes here",
+    "MESSAGE_PLACEHOLDER": "Hello Alex, I am interested in...",
+    "MESSAGE_SENT": "Your message was sent successfully"                              
+  },
+
+  "PRIVACY_POLICY": {
+    "POLICY_H1": "Privacy Policy",
+    "BACK": "Back",
+    "INTRO": "1. Introduction",
+    "MY_POLICY": "This Privacy Policy explains how Alex Herzen collects, uses, and protects your personal information when you visit my portfolio website https://alex-herzen.de . I am committed to protecting your privacy and ensuring that your personal data is handled in a safe and responsible manner.",        
+    "INFO": "2. Information Collection",
+    "COLLECT": "I may collect personal data that you voluntarily provide when you:",
+    "FILL": "- Fill out contact forms, or",
+    "SUBMIT": "- Submit inquiries or comments.",
+    "PERSONAL": "The personal data collected may include your name, email address, phone number, and any other information you choose to provide.",
+    "YOUR_INFO": "3. How Your Information Is Used",
+    "YOUR_PERSONAL": "I use your personal data to:",
+    "RESPOND": "- Respond to your inquiries or messages",
+    "PROVIDE": "- Provide you with requested information or services",
+    "IMPROVIDE": "- Improve the content and functionality of my website",
+    "COMMUNICATE": "- Communicate updates or relevant information regarding my portfolio and services",
+    "NOT_SHARE": "I do not share your personal data with third parties for marketing purposes.",
+    "COOKIES": "4. Cookies and Tracking Technologies",
+    "WEBSITE": "My website uses cookies and similar technologies to enhance your user experience. Cookies help analyze website traffic and personalize content. You can control cookie settings in your browser, but note that disabling cookies may affect the functionality of the website.",
+    "SECURITY": "5. Data Security",
+    "MEASURES": " I take appropriate technical and organizational measures to protect your personal data from unauthorized access, alteration, disclosure, or destruction. However, please be aware that no security system is impenetrable.",
+    "RIGHTS": "6. Your Rights",
+    "YOU_HAVE": "You have the right to:",
+    "ACCESS": "Access the personal data I hold about you",
+    "REQUEST": "Request correction or deletion of your personal data",
+    "OBJECT": " Object to or restrict the processing of your personal data",
+    "EXERCISE": "If you wish to exercise any of these rights, please contact me at",
+    "CHANGES": "7. Changes to This Privacy Policy",
+    "UPDATE": " I may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date. I encourage you to review the policy periodically.",
+    "CONTACT_POLICY": "8. Contact",
+    "QUESTIONS": "If you have any questions or concerns about this Privacy Policy, please contact me via email at"         
+  },
+
+  "LEGAL_NOTICE": {
+    "NOTICE_H1": "Legal Notice",
+    "BACK": "Back",
+    "PROVIDER": "Service Provider",
+    "CONTACT_INFO": "Contact Information",
+    "ADDITIONAL": "Additional Information",
+    "FOR_DETAILS": "For details on data protection and privacy, please see our",
+    "LAST_POLICY": "Privacy Policy",
+    "EMAIL": "Email Address:"
+  }
+
+}
+

@@ -1,0 +1,167 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 64px;
+  padding-bottom: 16px;
+}
+
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  img {
+    width: 70px;
+  }
+
+  span {
+    font-size: 18px;
+  }
+}
+
+.legal_notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  a {
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 120px;
+    position: absolute;
+    bottom: -14px;
+    z-index: 1;
+    pointer-events: none;
+    transform: scale(0.9);
+    transition: transform 0.3s ease, clip-path 0.5s ease, opacity 0.3s ease;
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+    width: 120px;
+  }
+
+  &:hover img {
+    opacity: 1;
+    transform: scale(1);
+    clip-path: inset(0 0 0 0);
+  }
+
+  &:not(:hover) img {
+    clip-path: inset(0 100% 0 0);
+  }
+}
+
+.footer_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  position: relative;
+  bottom: -8px;
+
+  div {
+    position: relative;
+    border-radius: 999px;
+    padding: 8px 16px;
+
+    a {
+      overflow: hidden;
+      z-index: 1;
+      font-size: 18px;
+      font-weight: 600;
+      position: relative;
+      z-index: 2;
+      color: #fff;
+      transition: color 0.3s ease;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 0;
+      height: 0;
+      background-color: #3355ff;
+      border-radius: 999px;
+      z-index: 1;
+      transition: all 0.15s ease-out;
+    }
+
+    &:hover::before {
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+    }
+
+    img {
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%) rotate(-280deg);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 5;
+      transition:
+        transform 0.5s ease,
+        left 0.5s ease,
+        opacity 0.3s ease;
+    }
+
+    &:hover img {
+      opacity: 1;
+      transform: translateX(-50%) rotate(0deg);
+      left: 100%;
+    }
+  }
+}
+
+@media(max-width: 645px) {
+  .content {
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .footer_right {
+    width: 100%;
+  }
+
+  .footer_left {
+    gap: 0;
+    padding-bottom: 24px;
+  }
+
+  .logo {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .legal_notice{
+    flex-direction: row;
+    justify-content: end;
+
+    img {
+      right: -8px;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+<section class="hero_main">
+    <app-header></app-header>
+
+    <div class="test">
+        <div class="max_width">
+
+            <div class="btn_content">
+                <div>
+                    <img src="assets/img/hand.png" alt="" />
+                    <button>
+                        <p class="text-default">{{ 'HERO.WORLD' | translate }}</p>
+                        <p class="text-hover">{{ 'HERO.NAME' | translate }}</p>
+                    </button>
+                </div>
+            </div>
+
+            <div class="wrapper">
+
+                <div class="frontend">
+                    <h1>
+                        <span *ngFor="let letter of frontend; let i = index" (mouseenter)="hoveredFrontendIndex = i"
+                            (mouseleave)="hoveredFrontendIndex = null"
+                            [ngClass]="{ 'hovered': hoveredFrontendIndex === i }">
+                            {{ getLetter(letter, i) }}
+                        </span>
+                    </h1>
+                </div>
+
+                <div class="photo" (mouseenter)="onPhotoMouseEnter()" (mouseleave)="onPhotoMouseLeave()">
+                    <img class="content" src="assets/img/image.jpg" alt="">
+                    <img class="frame" src="assets/img/main.bild.png" alt="">
+                    <span [class.animate]="shouldAnimate">
+                        {{ isHovered ? 'Alex :D' : 'Alex :)' }}
+                    </span>
+                </div>
+
+            </div>
+
+
+            <div class="developer">
+                <h1>
+                    <span *ngFor="let letter of developer; let i = index" (mouseenter)="hoveredDeveloperIndex = i"
+                        (mouseleave)="hoveredDeveloperIndex = null"
+                        [ngClass]="{ 'hovered': hoveredDeveloperIndex === i }">
+                        {{ getLetter(letter, i, true) }}
+                    </span>
+                </h1>
+            </div>
+
+            <a href="#contact"><button class="btn">{{ 'HERO.TOUCH' | translate }}</button></a>
+
+            <div class="photo_mobile" (mouseenter)="onPhotoMouseEnter()" (mouseleave)="onPhotoMouseLeave()">
+                <img class="content" src="assets/img/image.jpg" alt="">
+                <img class="frame" src="assets/img/main.bild.png" alt="">
+                <span [class.animate]="shouldAnimate">
+                    {{ isHovered ? 'Alex :D' : 'Alex :)' }}
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="links_btn">
+        <div>
+            <a href="https://www.linkedin.com/in/alex-herzen-90893b381/" target="_blank" rel="noopener"><img src="assets/img/linkedin.png" alt=""></a>
+        </div>
+        <div>
+            <a href="https://github.com/herzen-alex" target="_blank" rel="noopener"><img src="assets/img/github.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#contact"><img src="assets/img/email.png" alt=""></a>
+        </div>
+    </div>
+
+</section>

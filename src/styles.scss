@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-style: bold;
+    font-family: 'sans-serif';
+    src: url('./assets/fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'secondaryFont';
+    src: url('./assets/fonts/Kalam-Regular.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+    overflow-x: hidden;
+    padding: 0;
+    height: 100vh;
+}
+
+.max_width {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.project_images {
+    position: relative;
+    width: 300px;
+    height: auto;
+
+    img {
+        width: 100%;
+        display: block;
+        clip-path: inset(0 100% 0 0);
+        animation: projectImages 4s ease-in-out infinite;
+        animation-delay: 800ms;
+    }
+}
+
+@keyframes projectImages {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    10% {
+        clip-path: inset(0 0% 0 0);
+    }
+
+    80% {
+        clip-path: inset(0 0% 0 0);
+    }
+
+    90% {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    100% {
+        clip-path: inset(0 100% 0 0);
+    }
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid white;
+    border-radius: 999px;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 2px 4px #f8f9fa;
+    transition: all .2s ease;
+
+    &:hover {
+        box-shadow: none;
+        transform: translateY(2px);
+    }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
+
+

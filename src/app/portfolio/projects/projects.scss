@@ -1,0 +1,322 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects_content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    .project_images {
+        width: 280px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 20px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    h1 {
+        font-size: 64px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.join_project {
+    display: flex;
+    flex-direction: column;
+    width: 572px;
+    position: relative;
+
+    h3 {
+        margin-top: 24px;
+        font-size: 24px;
+        margin-block-end: 0;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.join_project_overlay {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+
+    &:hover {
+        .overlay {
+            opacity: 1;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 1%, transparent 100%);
+        }
+
+        .btn {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .laptop img {
+            animation: none;
+            transform: translateY(0) scale(1.08) perspective(600px) rotateX(3deg);
+        }
+    }
+
+    .project_sticker {
+        position: absolute;
+        bottom: 24px;
+        left: 15%;
+        transform: translateX(-50%);
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+
+.laptop {
+    position: relative;
+    width: 100%;
+    border-radius: 24px;
+
+    .btn {
+        position: absolute;
+        bottom: 30px;
+        left: 60%;
+        background-color: transparent;
+        color: #fff;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 4;
+
+        &:hover {
+            background-color: #f47c5c;
+            color: white;
+        }
+    }
+
+    img {
+        width: 450px;
+        animation: bounceSimple 5s ease-in-out infinite;
+        position: relative;
+        bottom: 0;
+        left: 15%;
+        transition: transform 0.4s ease;
+        z-index: 1;
+        transform-origin: center;
+        border-radius: 24px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 1%, transparent 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease, background 0.3s ease;
+        z-index: 3;
+        pointer-events: none;
+        border-radius: 24px;
+    }
+}
+
+@keyframes bounceSimple {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(30px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    position: relative;
+
+    h3 {
+        font-size: 24px;
+        margin-block-end: 0;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.projects_bg_img {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 24px;
+
+    img {
+        width: 100%;
+        display: block;
+        border-radius: 24px;
+        transition: transform 0.4s ease;
+        transform-origin: center;
+        border-radius: 24px;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 1%, transparent 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border-radius: 24px;
+        pointer-events: none;
+        z-index: 3;
+    }
+
+    .btn {
+        position: absolute;
+        bottom: 30px;
+        left: 60%;
+        background-color: transparent;
+        color: #fff;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 4;
+
+        &:hover {
+            background-color: #f47c5c;
+            color: white;
+        }
+    }
+
+    &:hover {
+        .overlay {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .btn {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        img {
+            transform: translateY(0) scale(1.08) perspective(600px) rotateX(3deg);
+        }
+    }
+}
+
+.btn_none {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+
+    .projects_content {
+        width: 100%;
+    }
+
+    .join_project {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 1187px) {
+    .content {
+        justify-content: center;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 620px) {
+    .a_none {
+        display: none;
+    }
+
+    .laptop {
+
+        img {
+            width: 350px;
+        }
+    }
+
+    .join_project_overlay {
+
+        .project_sticker {
+            width: 120px;
+            bottom: 16px;
+        }
+    }
+
+    .btn_wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 16px;
+
+        .btn {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+            box-shadow: 2px 4px black;
+
+            &:hover {
+                background-color: #f47c5c;
+                color: white;
+                box-shadow: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 485px) {
+    .laptop {
+
+        img {
+            width: 300px;
+        }
+    }
+
+    .join_project_overlay {
+
+        .project_sticker {
+            width: 100px;
+        }
+    }
+
+}
+
+@media (max-width: 420px) {
+     .laptop {
+
+        img {
+            width: 220px;
+        }
+    }
+
+    .join_project_overlay {
+
+        .project_sticker {
+            width: 80px;
+        }
+    }
+}

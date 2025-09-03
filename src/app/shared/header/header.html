@@ -1,0 +1,110 @@
+<header class="max_width">
+    <div class="header_main">
+        <img class="logo" src="assets/img/logo.png" alt="">
+
+        <nav class="nav_main nav_none">
+
+            <div class="nav_item">
+                <a [style.color]="linkColor[0]" [routerLink]="['/']" fragment="about">{{ 'NAV.ABOUT' | translate }}</a>
+                <img class="about" src="assets/img/about.png" alt="">
+            </div>
+            <div class="nav_item">
+                <a [style.color]="linkColor[1]" [routerLink]="['/']" fragment="skills">{{ 'NAV.SKILLS' | translate }}</a>
+                <img src="assets/img/skills.png" alt="">
+            </div>
+            <div class="nav_item">
+                <a [style.color]="linkColor[2]" [routerLink]="['/']" fragment="projects">{{ 'NAV.PROJECTS' | translate }}</a>
+                <img src="assets/img/p.header.png" alt="">
+            </div>
+            <div class="nav_item">
+                <a [style.color]="linkColor[3]" href="#contact">{{ 'NAV.CONTACT' | translate }}</a>
+                <img src="assets/img/contact.png" alt="">
+            </div>
+        </nav>
+
+        <div class="language nav_none">
+            <div class="lang-option" (click)="setLanguage(false)">
+                <p [ngClass]="{ active: !languageToggle }">EN</p>
+                <img src="assets/img/toggle.png" alt="toggle effect" *ngIf="languageToggle" />
+            </div>
+
+            <label>
+                <input type="checkbox" [(ngModel)]="languageToggle" />
+                <span></span>
+            </label>
+
+            <div class="lang-option" (click)="setLanguage(true)">
+                <p [ngClass]="{ active: languageToggle }">DE</p>
+                <img src="assets/img/toggle.png" alt="toggle effect" *ngIf="!languageToggle" />
+            </div>
+        </div>
+
+        <div class="burger_btn" (click)="toggleMobileMenu()">
+            <img class="default" src="assets/img/burger.png" alt="burger">
+            <img class="hover" src="assets/img/burger_hover.png" alt="burger hover">
+        </div>
+
+    </div>
+
+</header>
+
+<div class="mobile" [ngClass]="mobileMenuClass">
+
+    <div class="header_mobile">
+        <img src="assets/img/logo.png" alt="">
+        <div class="close_btn" (click)="toggleMobileMenu()">
+            <img class="close" src="assets/img/close.png" alt="close">
+            <img class="close-hover" src="assets/img/close_hover.png" alt="close hover">
+        </div>
+    </div>
+
+    <div class="mobile_content">
+        <div class="nav_item">
+            <a (click)="toggleMobileMenu()" [routerLink]="['/']" fragment="about">{{ 'NAV.ABOUT' | translate }}</a>
+            <img class="about" src="assets/img/about.png" alt="">
+        </div>
+        <div class="nav_item">
+            <a (click)="toggleMobileMenu()" [routerLink]="['/']" fragment="skills">{{ 'NAV.SKILLS' | translate }}</a>
+            <img src="assets/img/skills.png" alt="">
+        </div>
+        <div class="nav_item">
+            <a (click)="toggleMobileMenu()" [routerLink]="['/']" fragment="projects">{{ 'NAV.PROJECTS' | translate }}</a>
+            <img src="assets/img/p.header.png" alt="">
+        </div>
+        <div class="nav_item">
+            <a (click)="toggleMobileMenu()" href="#contact">{{ 'NAV.CONTACT' | translate }}</a>
+            <img src="assets/img/contact.png" alt="">
+        </div>
+    </div>
+
+    <div class="language language_mobile">
+        <div class="lang-option" (click)="setLanguage(false)">
+            <p [ngClass]="{ active: !languageToggle }">EN</p>
+            <img src="assets/img/toggle.png" alt="toggle effect" *ngIf="languageToggle" />
+        </div>
+
+        <label>
+            <input type="checkbox" [(ngModel)]="languageToggle" />
+            <span></span>
+        </label>
+
+        <div class="lang-option" (click)="setLanguage(true)">
+            <p [ngClass]="{ active: languageToggle }">DE</p>
+            <img src="assets/img/toggle.png" alt="toggle effect" *ngIf="!languageToggle" />
+        </div>
+    </div>
+
+    <div class="links_btn">
+        <div>
+            <a href="https://www.linkedin.com/in/alex-herzen-90893b381/" target="_blank" rel="noopener"><img src="assets/img/linkedin.png" alt=""></a>
+        </div>
+        <div>
+            <a href="https://github.com/herzen-alex" target="_blank" rel="noopener"><img src="assets/img/github.png" alt=""></a>
+        </div>
+        <div>
+            <a href="#contact"><img src="assets/img/email.png" alt=""></a>
+        </div>
+    </div>
+
+
+</div>

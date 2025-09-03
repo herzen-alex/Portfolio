@@ -1,0 +1,98 @@
+<section class="contact_main">
+    <div class="max_width">
+        <app-sticker-footer class="mobile_sticker"></app-sticker-footer>
+        <div class="content">
+            <div class="content_left">
+                <span>{{ 'CONTACT.CONTACT_ME' | translate }}</span>
+                <h1>{{ 'CONTACT.H1' | translate }}</h1>
+                <p>{{ 'CONTACT.P-1' | translate }}</p>
+                <p>{{ 'CONTACT.P-2' | translate }}</p>
+                <div class="project_images img_none">
+                    <img src="assets/img/line_contact.png" alt="">
+                </div>
+            </div>
+
+            <div class="content_right">
+                <app-sticker-footer class="sticker"></app-sticker-footer>
+
+                <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm" novalidate autocomplete="off">
+
+                    <!-- Name -->
+                    <div class="input-group"
+                        [class.error]="(name.invalid && name.touched) || (myForm.submitted && name.invalid)">
+                        <label for="name">{{ 'CONTACT.LABEL_NAME' | translate }}</label>
+                        <input #name="ngModel" pattern="^[A-Za-zÄÖÜäöüß\-']+( [A-Za-zÄÖÜäöüß\-']+)*\s*$" id="name"
+                            name="user_name_fake" type="text" maxlength="25" required [(ngModel)]="formData.name"
+                            placeholder="{{ 'CONTACT.NAME_PLACEHOLDER' | translate }}" autocomplete="off" />
+                        <span class="alert">{{ 'CONTACT.SPAN_NAME' | translate }}</span>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="input-group"
+                        [class.error]="(email.invalid && email.touched) || (myForm.submitted && email.invalid)">
+                        <label for="email">{{ 'CONTACT.LABEL_EMAIL' | translate }}</label>
+                        <input type="text" style="display:none" autocomplete="off" />
+                        <input #email="ngModel" pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}" id="email"
+                            name="email" type="email" required [(ngModel)]="formData.email"
+                            placeholder="youremail@email.com" autocomplete="new-password" />
+                        <span class="alert">{{ 'CONTACT.SPAN_EMAIL' | translate }}</span>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="input-group"
+                        [class.error]="(message.invalid && message.touched) || (myForm.submitted && message.invalid)">
+                        <label for="message">{{ 'CONTACT.LABEL_MESSAGE' | translate }}</label>
+                        <input #message="ngModel" type="text" id="message" name="message" required minlength="20"
+                            [(ngModel)]="formData.message" placeholder="{{ 'CONTACT.MESSAGE_PLACEHOLDER' | translate }}"
+                            autocomplete="off" />
+                        <span class="alert">{{ 'CONTACT.SPAN_MESSAGE' | translate }}</span>
+                    </div>
+
+                    <!-- Privacy -->
+                    <div class="privacy" [class.error]="(privacy.invalid && (privacy.touched || myForm.submitted))">
+                        <input type="checkbox" id="privacy" name="privacy" [(ngModel)]="formData.privacy" required
+                            #privacy="ngModel" />
+
+                        <label for="privacy" class="custom-checkbox">
+                            <span class="checkbox-img">
+                                <img [src]="formData.privacy ? 'assets/img/check.png' : 'assets/img/uncheck.png'"
+                                    alt="">
+                            </span>
+                        </label>
+
+                        <p>
+                            {{ 'CONTACT.PRIVACY_P1' | translate }}
+                            <a routerLink="/privacy-policy">{{ 'CONTACT.PRIVACY_A' | translate }}</a>
+                            {{ 'CONTACT.PRIVACY_P2' | translate }} <br>
+                            {{ 'CONTACT.PRIVACY_P3' | translate }}
+                        </p>
+
+                        <span class="policy" *ngIf="privacy.invalid && (privacy.touched || myForm.submitted)">
+                            {{ 'CONTACT.POLICY' | translate }}
+                        </span>
+                    </div>
+
+
+                    <!-- Button -->
+                    <div class="submit_btn">
+                        <div class="project_images project_images_mobile">
+                            <img src="assets/img/line_contact.png" alt="">
+                        </div>
+                        <button class="btn_send" type="submit" [class.inactive]="myForm.invalid">
+                            {{ 'CONTACT.SEND_BUTTON' | translate }}
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <app-footer></app-footer>
+</section>
+
+<div class="overlay" *ngIf="showSuccessMessage" (animationend)="showSuccessMessage=false">
+  <div class="success-box">
+    <p>{{ 'CONTACT.MESSAGE_SENT' | translate }} 🎉</p>
+  </div>
+</div>
