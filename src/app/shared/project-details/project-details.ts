@@ -24,6 +24,13 @@ export class ProjectDetails {
     });
   }
 
+   ngOnInit() {
+    this.updateLinkColor(window.innerWidth);
+    this.route.paramMap.subscribe(params => {
+      this.projectId = params.get('id');
+    });
+  }
+
   @HostListener('window:resize', ['$event'])
   onResize(event: Event) {
     const width = window.innerWidth;

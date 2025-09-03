@@ -264,3 +264,11 @@
     }
   }
 }
+
+@media (max-width: 350px) {
+  .skills_description {
+    p {
+      padding-top: 16px;
+    }
+  }
+}
