@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component,AfterViewInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Hero } from "./hero/hero";
 import { About } from './about/about';
 import { SkillSet } from './skill-set/skill-set';
@@ -12,6 +13,27 @@ import { Contact } from './contact/contact';
   templateUrl: './portfolio.html',
   styleUrl: './portfolio.scss'
 })
-export class Portfolio {
+export class Portfolio implements AfterViewInit {
+
+  constructor(private route: ActivatedRoute) {}
+
+  ngAfterViewInit() {
+    this.route.fragment.subscribe(fragment => {
+      if (fragment === 'contact') {
+        const contactEl = document.getElementById('contact');
+        if (contactEl) {
+          setTimeout(() => contactEl.scrollIntoView({ behavior: 'smooth' }), 50);
+        }
+      }
+    });
+  }
+
+  scrollToFragment() {
+    const fragment = window.location.hash.replace('#', '');
+    if (fragment === 'contact') {
+      const el = document.getElementById('contact');
+      if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth' }), 50);
+    }
+  }
 
 }

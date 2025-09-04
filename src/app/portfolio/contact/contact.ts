@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output, AfterViewInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { StickerFooter } from '../../shared/sticker-footer/sticker-footer';
 import { FormsModule, NgForm } from '@angular/forms';
@@ -14,7 +14,14 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   templateUrl: './contact.html',
   styleUrl: './contact.scss'
 })
-export class Contact {
+
+export class Contact implements AfterViewInit {
+
+  @Output() ready = new EventEmitter<void>();
+
+   ngAfterViewInit() {
+    setTimeout(() => this.ready.emit(), 0);
+  }
 
   formData = {
     name: '',

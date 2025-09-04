@@ -17,7 +17,7 @@
                 <img src="assets/img/p.header.png" alt="">
             </div>
             <div class="nav_item">
-                <a [style.color]="linkColor[3]" href="#contact">{{ 'NAV.CONTACT' | translate }}</a>
+                <a [style.color]="linkColor[3]" [routerLink]="['/']" fragment="contact">{{ 'NAV.CONTACT' | translate }}</a>
                 <img src="assets/img/contact.png" alt="">
             </div>
         </nav>
@@ -72,7 +72,7 @@
             <img src="assets/img/p.header.png" alt="">
         </div>
         <div class="nav_item">
-            <a (click)="toggleMobileMenu()" href="#contact">{{ 'NAV.CONTACT' | translate }}</a>
+            <a (click)="toggleMobileMenu()" [routerLink]="['/']" fragment="contact">{{ 'NAV.CONTACT' | translate }}</a>
             <img src="assets/img/contact.png" alt="">
         </div>
     </div>
