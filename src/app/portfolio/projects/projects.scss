@@ -104,11 +104,11 @@
     }
 
     img {
-        width: 450px;
+        width: 100%;
         animation: bounceSimple 5s ease-in-out infinite;
         position: relative;
         bottom: 0;
-        left: 15%;
+        left: -10%;
         transition: transform 0.4s ease;
         z-index: 1;
         transform-origin: center;
@@ -253,18 +253,11 @@
         display: none;
     }
 
-    .laptop {
-
-        img {
-            width: 350px;
-        }
-    }
-
     .join_project_overlay {
 
         .project_sticker {
             width: 120px;
-            bottom: 16px;
+            bottom: 48px;
         }
     }
 
@@ -289,12 +282,6 @@
 }
 
 @media (max-width: 485px) {
-    .laptop {
-
-        img {
-            width: 300px;
-        }
-    }
 
     .join_project_overlay {
 
@@ -305,13 +292,7 @@
 
 }
 
-@media (max-width: 420px) {
-     .laptop {
-
-        img {
-            width: 220px;
-        }
-    }
+@media (max-width: 380px) {
 
     .join_project_overlay {
 
