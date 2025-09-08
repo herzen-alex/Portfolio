@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, EventEmitter, Output, AfterViewInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 import { StickerFooter } from '../../shared/sticker-footer/sticker-footer';
 import { FormsModule, NgForm } from '@angular/forms';
@@ -17,10 +17,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 export class Contact implements AfterViewInit {
 
-  @Output() ready = new EventEmitter<void>();
+  ngAfterViewInit() {
 
-   ngAfterViewInit() {
-    setTimeout(() => this.ready.emit(), 0);
   }
 
   formData = {
@@ -40,7 +38,7 @@ export class Contact implements AfterViewInit {
     this.formSubmitted = true;
     if (!form.valid) {
       Object.values(form.controls).forEach((c: any) => c.markAsTouched());
-      console.log('Form is invalid'); return;
+      return;
     }
     const url = 'https://alex-herzen.de/contact/sendMail.php';
     const body = this.formData;
