@@ -210,6 +210,12 @@
   }
 }
 
+.btn-disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+}
+
 @media(max-width: 1210px) {
   .project_details_container {
     background-image: url('./../../../assets/img/overlay_mobile_bg.png');

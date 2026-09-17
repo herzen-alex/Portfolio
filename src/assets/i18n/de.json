@@ -36,7 +36,7 @@
     "PROJECTS_P": "Entdecken Sie meine innovativen Projekte und erfahren Sie, wie ich Responsive Design mit effizientem Code kombiniere, um benutzerfreundliche Erlebnisse zu schaffen. Jedes Projekt spiegelt mein Engagement wider, Grenzen zu überschreiten und herausragende digitale Lösungen zu liefern. Tauchen Sie ein, erkunden Sie meine kreativen Arbeiten und lassen Sie sich von Ihrer Neugier zu etwas Außergewöhnlichem führen!",
     "JOIN": "Aufgabenmanager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben per Drag & Drop, weisen Sie Benutzer und Kategorien zu.",
     "EL_POLLO_LOCO": "Spring-, Lauf- und Wurfspiel mit objektorientiertem Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
-    "DABUBBLE": "Durchstöbere eine wachsende Liste von Pokemon, sieh ihre Typen und Werte, speichere Favoriten und wähle, wie viele geladen werden – sie bleiben beim nächsten Besuch."
+    "DABUBBLE": "Moderner Task Manager zur strukturierten Verwaltung von Aufgaben, Zuständigkeiten und Prioritäten. Aufgaben lassen sich übersichtlich organisieren und per Drag & Drop verwalten."
   },
 
   "COLLEAGUES": {
@@ -58,8 +58,8 @@
     "JOIN_DETAILS": "Für Projekt Join entwickelte ich einen strukturierten Workflow, indem ich ein Kanban-Board entwarf und verfeinerte, um das Aufgabenmanagement zu optimieren und die Teamproduktivität zu steigern. Ich setzte klare Prioritäten, überwachte den Fortschritt transparent und optimierte den Prozess kontinuierlich. Dabei stellte ich meine Fähigkeit unter Beweis, selbstständig zu arbeiten und mich an sich entwickelnde Projektanforderungen anzupassen.",
     "POLLO_DESCRIPTION": "Spring-, Lauf- und Wurfspiel mit objektorientiertem Ansatz. Hilf Pepe, Münzen und Tabasco-Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
     "POLLO_DETAILS": "Im Projekt El Pollo Loco leitete ich den Spielentwicklungsprozess von der Konzeption bis zur finalen Umsetzung. Mithilfe agiler Methoden verfeinerte ich Spielmechanik und Benutzererlebnis schrittweise und hielt dabei strenge Qualitätsstandards ein. Dieses Projekt unterstreicht meinen selbstbestimmten, strukturierten Ansatz bei kreativen und technischen Herausforderungen.",
-    "DABUBBLE_DESCRIPTION": "Mit diesem Pokédex kannst du eine wachsende Liste von Pokémon durchsuchen, ihre Typen und Werte entdecken und Details in einem übersichtlichen Kartenlayout ansehen. Speichere deine Favoriten und wähle, wie viele Pokémon geladen werden sollen – sie bleiben auch bei deinem nächsten Besuch erhalten.",
-    "DABUBBLE_DETAILS": "Dieses Projekt war meine erste praktische Erfahrung mit einer API. Ich habe die PokeAPI genutzt, um mit großen Datensätzen zu arbeiten. Das Parsen und Strukturieren der Daten war anfangs herausfordernd, aber als ich den Dreh raus hatte, machte es richtig Spaß, die Informationen genau dort im Frontend einzubinden, wo sie gebraucht wurden."
+    "DABUBBLE_DESCRIPTION": "Moderner Task Manager zur strukturierten Verwaltung von Aufgaben, Zuständigkeiten und Prioritäten. Aufgaben lassen sich übersichtlich organisieren und per Drag & Drop verwalten.",
+    "DABUBBLE_DETAILS": "Für den Task Manager entwickelte ich eine moderne Anwendung zur Verwaltung und Organisation von Aufgaben. Dabei setzte ich Angular im Frontend und Flask im Backend ein und verband beide Bereiche über eine REST-API. Aufgaben können erstellt, bearbeitet, priorisiert und Benutzern zugewiesen werden. Zusätzlich implementierte ich Funktionen wie Unteraufgaben, Fälligkeitsdaten und eine übersichtliche Aufgabenverwaltung. Dadurch konnte ich meine Kenntnisse in der Entwicklung einer vollständigen Webanwendung sowie im Zusammenspiel von Frontend, Backend und Datenbank praktisch vertiefen."
   },
 
   "CONTACT":{
